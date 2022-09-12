@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { fetchPageOfMovies } from "../api";
 import { Movie } from "./MoviesTable";
-import { StyledButton, StyledForm, StyledLoadMore } from "./styles";
+import { StyledButton, StyledForm, StyledLoadMore } from "../styles";
 
 interface FormProps {
   setMovies: React.Dispatch<React.SetStateAction<Movie[]>>;

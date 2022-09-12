@@ -1,4 +1,4 @@
-import { StyledR, StyledTable } from "./styles";
+import { StyledR, StyledTable } from "../styles";
 
 export type Movie = {
   Title: string;
